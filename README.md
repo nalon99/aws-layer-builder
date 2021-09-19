@@ -5,7 +5,7 @@ This might be very usfeul when a Lambda function needs to use external packages 
 Layers can be created in the AWS Lambda console where a zip file must be uploaded in order to provide the package/packages necessary to the Lambda function.  
 
 ## Get the amazonlinux docker image
-In order to build a Layer, docker must be installed in the local machine, and from the Docker Hub downloads the **amazonlinux** image.  
+In order to build a Layer, docker must be installed in the local machine, and from the [Docker Hub](https://hub.docker.com/) downloads the **amazonlinux** image.  
 Clone this repository to your local machine in a working directory, then type the following commands:  
 - cd \<your working directory\>/aws-layer-builder
 - docker run -it --rm -v \<your working directory\>/aws-layer-builder/python:/app amazonlinux bash
