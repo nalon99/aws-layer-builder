@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Zipped file with final layers created
+*.zip
+# directory where packages are installed locally
+**/python/*
+
+# Exclude requirements.txt
+requirements.txt
+
