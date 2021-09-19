@@ -130,8 +130,9 @@ dmypy.json
 
 # Zipped file with final layers created
 *.zip
+
 # directory where packages are installed locally
-**/python
+python/package/**
 
 # Exclude requirements.txt
 requirements.txt
