@@ -132,7 +132,9 @@ dmypy.json
 *.zip
 
 # directory where packages are installed locally
-python/package
+# python/package/python/*
+
+
 
 # Exclude requirements.txt
 requirements.txt
