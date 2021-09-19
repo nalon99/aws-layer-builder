@@ -131,8 +131,10 @@ dmypy.json
 # Zipped file with final layers created
 *.zip
 # directory where packages are installed locally
-**/python/*
+**/python
 
 # Exclude requirements.txt
 requirements.txt
 
+# macOS Files
+.DS_Store
