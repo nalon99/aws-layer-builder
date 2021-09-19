@@ -6,16 +6,17 @@ Layers can be created in the AWS Lambda console where a zip file must be uploade
 
 ## Get the amazonlinux docker image
 In order to build a Layer, docker must be installed in the local machine, and from the Docker Hub downloads the **amazonlinux** image.  
-Clone this repository with your local machine on a working folder, then type the following commands:  
-- cd \<your working directory\>
+Clone this repository to your local machine in a working directory, then type the following commands:  
+- cd \<your working directory\>/aws-layer-builder
 - docker run -it --rm -v \<your working directory\>/aws-layer-builder/python:/app amazonlinux bash
 - yum install python3
 - yum install zip
 - cd package
-- pip3 install --ignore-installed --target=python <the name of the python package you are going to install>
+- pip3 install --ignore-installed --target=python \<**the name of the python package you are going to install**\>
 - zip -r ../package.zip .  
   
-Finally you'll find your AWS Layer as a zip file inside your working directory, and this can be later uploaded to the AWS Lambda management consol as a new Layer.  
+Finally you'll have your zip file the package runtime ready to be uploaded with the AWS Lambda management console to a new Layer.  
+
 
   
 
