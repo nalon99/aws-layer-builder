@@ -11,7 +11,7 @@ Clone this repository to your local machine in a working directory, then type th
 - docker run -it --rm -v \<your working directory\>/aws-layer-builder/python:/app amazonlinux bash
 - yum install python3
 - yum install zip
-- cd package
+- cd app/package
 - pip3 install --ignore-installed --target=python \<**the name of the python package you are going to install**\>
 - zip -r ../package.zip .  
   
